@@ -1,0 +1,248 @@
+.searchPage__header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  align-items: flex-start;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchPage__logo {
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+}
+
+.searchPage__headerBody > .search > .search__input {
+  margin-top: 0;
+  width: unset;
+  margin: unset;
+  max-width: unset;
+}
+
+.searchPage__options {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.searchPage__options a,
+.searchPage__optionsRight a {
+  text-decoration: none;
+  color: gray;
+}
+
+.searchPage__optionsRight,
+.searchPage__optionsLeft {
+  display: flex;
+}
+
+.searchPage__optionsRight {
+  margin-left: 80px;
+}
+
+.searchPage__resultLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3px;
+}
+
+.searchPage__option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.searchPage__option a {
+  margin-left: 5px;
+}
+
+.searchPage__resultImage {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.searchPage__result {
+  margin: 40px 0;
+}
+
+.searchPage__resultCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.searchPage__results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage__resultTitle {
+  text-decoration: none;
+}
+
+.searchPage__resultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage__resultTitle > h2 {
+  font-weight: 500;
+}
+
+.searchPage__resultSnippet {
+  margin-top: 10px;
+}
+
+.search__input {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+  border-radius: 999px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 560px;
+}
+
+.search__input > input {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: medium;
+  border: none;
+}
+
+.search__input > input:focus {
+  outline-width: 0;
+}
+
+.search__inputIcon {
+  color: gray;
+}
+
+.search__buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search__buttons button {
+  margin: 5px;
+  padding: 7px 15px;
+  background-color: #f8f8f8;
+  border: 1px solid white;
+  text-transform: inherit;
+  color: #5f6368;
+}
+
+.search__buttons button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.search__buttonsHidden {
+  display: none !important;
+}
+
+.searchPage__resutlsContainer {
+  display: flex;
+  width: 1400px;
+  height: 780px;
+  justify-content: space-between;
+}
+
+.searchPage__resultsTab {
+  width: 350px;
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.searchPage__resultsTab hr {
+  border: 1px solid lightgray;
+}
+
+.searchPage__resultsTab .main__info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchPage__resultsTab .main__info img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.searchPage__resultsTab .website__area {
+  display: flex;
+  margin: 10px 0;
+}
+
+.searchPage__resultsTab .website__area p {
+  margin-left: 20px;
+  color: blue;
+}
+
+.searchPage__resultsTab .available__streams {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.searchPage__resultsTab .available__streams h3 {
+  margin-bottom: 10px;
+}
+
+.searchPage__resultsTab .available__streams .stream__contents {
+  display: flex;
+  height: 20px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.searchPage__resultsTab
+  .available__streams
+  .stream__contents
+  .social-container {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 0;
+}
+
+.searchPage__resultsTab .available__streams .stream__contents p {
+  font-size: 14px;
+}
+
+.searchPage__resultsTab .short__description {
+  margin: 20px 0;
+}
+
+.searchPage__resultsTab .short__description strong {
+  color: blue;
+}
+
+.searchPage__resultsTab .short__infos {
+  margin-bottom: 20px;
+}
+
+.searchPage__resultsTab .short__infos p {
+  color: blue;
+  margin: 10px 0;
+}
+
+.searchPage__resultsTab .short__infos strong {
+  color: black;
+}

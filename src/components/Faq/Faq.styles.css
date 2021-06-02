@@ -1,0 +1,32 @@
+.accordion__button {
+    background-color: transparent !important;
+    /* color: rgb(68 68 68); */
+    cursor: pointer !important;
+    padding: 0 !important;
+    padding-top: 18px !important;
+    padding-right: 18px !important;
+    padding-bottom: 18px !important;
+    width: 100%;
+    text-align: left;
+    position: relative !important;
+    border: none !important;
+  }
+  
+  .accordion__button:before {
+    display: inline-block;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 50px;
+    width: 10px;
+    /* margin-right: 12px; */
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+  }
+  
+  .accordion {
+    border: none !important;
+    border-radius: 2px;
+  }
+  
