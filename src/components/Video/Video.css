@@ -1,0 +1,19 @@
+.searchDescription{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.searchDescription img{
+    border-radius: 12px;
+}
+
+.searchDescription p{
+    margin-left: 16px;
+}
+
+.searchDescription .newsTime{
+    color: #70757a;
+    font-size: 14px;
+}

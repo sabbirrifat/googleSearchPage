@@ -1,0 +1,29 @@
+.search_images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.search_images{
+    width: 100%;
+    padding: 15px;
+}
+
+.img_sec  img{
+    height: 310px;
+    padding-top: 10px;
+}
+.image_desc_name{
+    color: #3c4043;
+    font-size: 14px;
+}
+
+.image_desc_website{
+    color: #3c4043;
+    font-size: 12px;
+    
+}
+
+.singleImg{
+    margin-top: 20px;
+}
