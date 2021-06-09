@@ -247,3 +247,33 @@
 .searchPage__resultsTab .short__infos strong {
   color: black;
 }
+
+  /* Responsiveness */
+
+  @media screen and (max-width: 1440px){
+    .searchPage__results{
+      margin-left: 140px;
+    }
+
+    .searchPage__resultsTab{
+      margin-left: 80px;
+    }
+  }
+
+  @media screen and (max-width: 1240px){
+    .searchPage__resultsTab{
+      display: none;
+    }
+    .searchPage__header{
+      flex-direction: column;
+    }
+    .searchPage__logo{
+      margin-bottom: 16px;
+    }
+  }
+
+  @media screen and (max-width: 720px){
+    .searchPage__results{
+      margin-left: 40px;
+    }
+  }
