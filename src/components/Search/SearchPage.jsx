@@ -16,7 +16,7 @@ import Images from "../Images/Images";
 
 
 const SearchTest = () => {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState("James");
   const [searchTab, setSearchTab] = useState('search');
 
   
@@ -61,16 +61,16 @@ const SearchTest = () => {
                 <a onClick={() => setSearchTab('search')} >All</a>
               </div>
               <div className="searchPage__option">
-                <DescriptionIcon />
-                <a  onClick={() => setSearchTab('news')}>News</a>
+                <VideoIcon />
+                <a onClick={() => setSearchTab('video')}>Videos</a>
               </div>
               <div className="searchPage__option">
                 <ImageIcon />
                 <a  onClick={() => setSearchTab('images')}>Images</a>
               </div>
               <div className="searchPage__option">
-                <VideoIcon />
-                <a onClick={() => setSearchTab('video')}>Videos</a>
+                <DescriptionIcon />
+                <a  onClick={() => setSearchTab('news')}>News</a>
               </div>
               <div className="searchPage__option">
                 <RoomIcon />
